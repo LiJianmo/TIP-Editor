@@ -61,6 +61,7 @@ python personalization/content_personalization.py \
   $image_root/1.3_75_0.png  \
   $image_root/1.3_75_30.png  \
 --max_train_steps=500
+--use_8bit_adam
 
 # 3. Coarse Editing via SDS Loss
 python train_coarse_editing.py  \
